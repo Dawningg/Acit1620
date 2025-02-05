@@ -5,6 +5,14 @@ The body tag should have the following styles
 ## Margin and padding should be set to
 */
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+    
+
+
 /* Header Styles: A fixed section at the top */
 /*
 The header class should include the following styles
@@ -15,12 +23,22 @@ The header class should include the following styles
 ## Include a bottom border for the header with a colour of your choice
 */
 
+.header {
+    background-color: aqua;
+    color: red;
+    padding: 1px;
+    text-align: center;
+    border-bottom: 5px solid green;
+}
 
 /* Header font size increased */
 /*Increase the font size of h1 in the header class to 2.5 em and set the 
 margin to 0
 */
-
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
 
 /* Navigation Bar */
 /*
@@ -32,6 +50,12 @@ The navbar class should include the following styles
 ## Add a padding around the text (Ex: 20px)
 */
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 15px;
+}
 
 /* Navigation bar hover effect added */
 .nav-item {
@@ -50,6 +74,13 @@ The navbar class should include the following styles
 ## Set a border radius (Ex: 5px)
 */
 
+.nav-item:hover {
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 15px;
+}
+
 /* Content Section */
 .content {
     padding: 20px;
@@ -62,6 +93,11 @@ The navbar class should include the following styles
 ## gap(20px) and margin(20px 0)
 */
 
+.flex-container {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
 
 /* Increased padding for articles */
 .article {
@@ -84,6 +120,12 @@ The navbar class should include the following styles
 */
 .image-card {
     flex: 1 1 150px;
+    text-align: center;
+    border-style: dotted;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: cyan;
+    box-shadow: 12px 12px;
 }
 
 /* Enlarged images inside image cards */
@@ -112,6 +154,7 @@ choice and the font(for the highlighted text) should appear in bold
     color: white;
     padding: 10px 0;
     margin-top: 20px;
+    font-size: 13px;
 }
 
 /* Reduced font size for footer text */
