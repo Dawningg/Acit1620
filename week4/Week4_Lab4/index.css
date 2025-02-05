@@ -26,7 +26,7 @@ The header class should include the following styles
 .header {
     background-color: aqua;
     color: red;
-    padding: 1px;
+    padding: 10px;
     text-align: center;
     border-bottom: 5px solid green;
 }
