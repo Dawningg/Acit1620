@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="notes.css">
+    <title>Absolute Positionning</title>
+    <style>
+
+        .container {
+            width: 300px;
+            height: 200px;
+            background-color: lightgray;
+            position: relative;
+            margin: 50px auto;
+            border: 2px solid black;
+        }
+
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: dodgerblue;
+            position: absolute;
+            top: 60px;
+            left: 60px;
+        }
+
+/* 
+        body   {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        body {
+            background: aqua;
+            border: 3px solid blue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        span {
+            background: red;
+            border: 1px solid black;
+        }
+
+        .positioned {
+            position: relative;
+            background: yellow;
+            top: 30px;
+            left: 30px;
+        } */
+/* 
+p {
+        animation-duration: 3s;
+        animation-name: slidein;
+      }
+      p span {
+        display: inline-block;
+        animation-duration: 3s;
+        animation-name: growshrink;
+      }
+
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+@keyframes growshrink {
+  25%,
+  75% {
+    scale: 100%;
+  }
+
+  50% {
+    scale: 200%;
+    color: magenta;
+  }
+} */
+ /*        .slider {   
+            position: relative;
+            font-weight: bold;
+            border-radius: 8px;
+            animation: slideInOut 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes slideInOut {
+            from {
+                transform: translateX(-100px);
+            }
+
+            to {
+                transform: translateY(100px);
+            }
+        } */
+   /*      p {
+            animation-duration: 3s;
+            animation-name: slide-in;
+        }
+
+        @keyframes slide-in {
+            from {
+                translate: 150vw 0;
+                scale: 200% 1;
+            }
+
+            to {
+                translate: 0 0;
+                scale: 100% 1;
+            }
+        } */
+  /*       .color-btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: royalblue;
+            color: white;
+            border: 1px solid black;
+            cursor: pointer;
+            transition: background-color 0.5s ease;
+        }
+
+        .color-btn:hover {
+            background-color: crimson;
+            /*matrix(scaleX,skewY, skewX, scaleY, translateX, translateY ) */
+        /* } */ 
+     /*    .skew {
+            width: 150px;
+            height: 100px;
+            background-color: pink;
+            text-align: center;
+            line-height: 100px;
+            transition: transform 0.5s ease;
+        }
+
+        .skew:hover {
+            transform: skew(20deg, 10deg);
+        } */
+      /*   .scale {
+            width: 150px;
+            height: 100px;
+            background-color: lightgreen;
+            text-align: center;
+            line-height: 100px;
+            transition: transform 0.5s ease;
+        }
+
+        .scale:hover {
+            transform: scale(1.5, 1.2);
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+    </div>
+  <!--   <h1> Relative Positioning </h1>
+    <p>
+        I am a basic block element. My adjacent block level elements sit on new lines below me.
+    </p>
+
+    <p class="positioned">
+        By default, we span 100% of the width of our parent element, and we are as tall as our child element. 
+        Our total widtyh and height is our content + padding + border width/ height;
+    </p>
+    <p>
+        We are seperated by our margins. Because of margin
+        collapsing, we are seperated by the width of one of our margins,
+        not both
+    </p>
+
+    <p>
+        Inline elements <span>like this one</span> and
+        <span>this one</span> sit on the same line as one another
+    </p> -->
+  <!--   <p>
+        The Caterpillar and <span>Alice</span> looked at each other for some time in
+        silence: at last the Caterpillar took the hookah out of its mouth, and
+        addressed her in a languid, sleepy voice.
+      </p> -->
+
+    <!-- <div class="slider">Slider</div> -->
+    <!-- <p>
+        The Caterpillar and Alice looked at each other
+        for some time in silence: at last the caterpillar took
+        the hookah out of its mouth and addresssed her in a 
+        sleep voice
+    </p> -->
+    <!-- <div class="scale">Scale Me</div> -->
+     <!-- <div class="skew">Skew Me!</div> -->
+      <!-- <div class="color-btn">Hover Me!</div> -->
+</body>
+</html>
